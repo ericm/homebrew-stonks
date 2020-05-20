@@ -2,9 +2,9 @@
 
 ## How do I install this formula?
 
-`brew install ericm/stonks/stonks.rb`
+`brew install ericm/stonks/stonks`
 
-Or `brew tap ericm/stonks` and then `brew install stonks.rb`.
+Or `brew tap ericm/stonks` and then `brew install stonks`.
 
 Or install via URL (which will not receive updates):
 
