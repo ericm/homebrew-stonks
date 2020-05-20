@@ -17,3 +17,4 @@ class Stonks < Formula
         build_opts << "install"
         system "make", *build_opts
     end
+end
