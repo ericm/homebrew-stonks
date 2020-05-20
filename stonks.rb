@@ -4,7 +4,7 @@ class Stonks < Formula
     homepage 'https://github.com/ericm/stonks'
 
     stable do
-        url 'https://github.com/JuliaLang/julia.git',
+        url 'https://github.com/ericm/stonks.git',
           :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "v1.0.2"
         version "1.0.2"
     end
