@@ -16,8 +16,8 @@ class Stonks < Formula
 
     stable do
         url 'https://github.com/ericm/stonks.git',
-          :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "v1.0.2"
-        version "1.0.2"
+          :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "v1.0.3"
+        version "1.0.3"
     end
 
     depends_on "golang"
