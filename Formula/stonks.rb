@@ -17,6 +17,5 @@ class Stonks < Formula
         system "make"
         # Install!
         bin.install "stonks"
-        mv bin/stonks, bin/stonks
     end
 end
