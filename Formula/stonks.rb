@@ -16,6 +16,7 @@ class Stonks < Formula
     def install
         system "make"
         # Install!
-        system "make", "install"
+        bin.install "stonks"
+        mv bin/stonks, bin/stonks
     end
 end
