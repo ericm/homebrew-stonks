@@ -16,7 +16,6 @@ class Stonks < Formula
     def install
         system "make"
         # Install!
-        build_opts << "install"
-        system "make", *build_opts
+        system "make install"
     end
 end
