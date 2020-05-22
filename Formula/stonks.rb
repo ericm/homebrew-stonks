@@ -16,6 +16,6 @@ class Stonks < Formula
     def install
         system "make"
         # Install!
-        system "make install"
+        system "make", "install"
     end
 end
