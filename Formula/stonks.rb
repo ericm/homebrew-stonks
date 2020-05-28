@@ -4,11 +4,11 @@ require 'formula'
 class Stonks < Formula
     homepage 'https://github.com/ericm/stonks'
 
-    url 'https://github.com/ericm/stonks.git', :using => :git, :tag => "v1.0.6"
+    url 'https://github.com/ericm/stonks.git', :using => :git, :tag => "v1.0.7"
 
     stable do
-        url 'https://github.com/ericm/stonks.git', :using => :git, :tag => "v1.0.6"
-        version "1.0.6"
+        url 'https://github.com/ericm/stonks.git', :using => :git, :tag => "v1.0.7"
+        version "1.0.7"
     end
 
     depends_on "golang"
