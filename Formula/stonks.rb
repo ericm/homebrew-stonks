@@ -8,7 +8,7 @@ class Stonks < Formula
 
     stable do
         url 'https://github.com/ericm/stonks.git', :using => :git, :tag => "v1.0.9"
-        version "1.0.8"
+        version "1.0.9"
     end
 
     depends_on "golang"
